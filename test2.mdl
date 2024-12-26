@@ -1,0 +1,11 @@
+constants all_gray 0.8 0 0 0.8 0 0 0.8 0 0
+constants dull_gray 0 0.8 0 0 0.8 0 0 0.8 0
+constants shiny_gray 0 0 0.8 0 0 0.8 0 0 0.8
+push
+sphere shiny_gray 0 0 0 80
+sphere all_gray 100 100 0 80
+sphere dull_gray 200 200 0 80
+sphere shiny_gray 300 300 0 80
+sphere all_gray 400 400 0 80
+sphere dull_gray 500 500 0 80
+display
